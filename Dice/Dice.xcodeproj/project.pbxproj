@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ED73D6CD1A41235C004ED2C2 /* Dice Incomplete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dice Incomplete.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED73D6CD1A41235C004ED2C2 /* Dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED73D6D11A41235C004ED2C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED73D6D21A41235C004ED2C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED73D6D41A41235C004ED2C2 /* DiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		ED73D6CE1A41235C004ED2C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED73D6CD1A41235C004ED2C2 /* Dice Incomplete.app */,
+				ED73D6CD1A41235C004ED2C2 /* Dice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,9 +78,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ED73D6CC1A41235C004ED2C2 /* Dice Incomplete */ = {
+		ED73D6CC1A41235C004ED2C2 /* Dice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED73D6EC1A41235C004ED2C2 /* Build configuration list for PBXNativeTarget "Dice Incomplete" */;
+			buildConfigurationList = ED73D6EC1A41235C004ED2C2 /* Build configuration list for PBXNativeTarget "Dice" */;
 			buildPhases = (
 				ED73D6C91A41235C004ED2C2 /* Sources */,
 				ED73D6CA1A41235C004ED2C2 /* Frameworks */,
@@ -90,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = "Dice Incomplete";
+			name = Dice;
 			productName = "Dice Incomplete";
-			productReference = ED73D6CD1A41235C004ED2C2 /* Dice Incomplete.app */;
+			productReference = ED73D6CD1A41235C004ED2C2 /* Dice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ED73D6C81A41235C004ED2C2 /* Build configuration list for PBXProject "Dice Incomplete" */;
+			buildConfigurationList = ED73D6C81A41235C004ED2C2 /* Build configuration list for PBXProject "Dice" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -125,7 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED73D6CC1A41235C004ED2C2 /* Dice Incomplete */,
+				ED73D6CC1A41235C004ED2C2 /* Dice */,
 			);
 		};
 /* End PBXProject section */
@@ -284,7 +284,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ED73D6C81A41235C004ED2C2 /* Build configuration list for PBXProject "Dice Incomplete" */ = {
+		ED73D6C81A41235C004ED2C2 /* Build configuration list for PBXProject "Dice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED73D6EA1A41235C004ED2C2 /* Debug */,
@@ -293,7 +293,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED73D6EC1A41235C004ED2C2 /* Build configuration list for PBXNativeTarget "Dice Incomplete" */ = {
+		ED73D6EC1A41235C004ED2C2 /* Build configuration list for PBXNativeTarget "Dice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED73D6ED1A41235C004ED2C2 /* Debug */,
