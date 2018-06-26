@@ -43,9 +43,15 @@ class RollViewController: UIViewController {
         
         // Passing Data From VC to another using segue in code.
         
-//        self.performSegue(withIdentifier: "rollDice", sender: self)
+        self.performSegue(withIdentifier: "rollDice", sender: self)
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let diceVC = segue.destination as! DiceViewController
+        
+        diceVC.firstValue = randomDiceValue()
+        diceVC.secondValue = randomDiceValue()
+    }
     
 }
 
