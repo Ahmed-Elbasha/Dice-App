@@ -27,17 +27,23 @@ class RollViewController: UIViewController {
 
     // MARK: Actions
     
-    // Passing Data From VC to another using storyboard.
+    
     
     @IBAction func rollTheDice() {
-        let controller : DiceViewController
+        // Passing Data From VC to another programmatically.
         
-        controller = storyboard?.instantiateViewController(withIdentifier: "DiceViewController") as! DiceViewController
+//        let controller : DiceViewController
+//
+//        controller = storyboard?.instantiateViewController(withIdentifier: "DiceViewController") as! DiceViewController
+//
+//        controller.firstValue = randomDiceValue()
+//        controller.secondValue = randomDiceValue()
+//
+//        self.present(controller, animated: true, completion: nil)
         
-        controller.firstValue = randomDiceValue()
-        controller.secondValue = randomDiceValue()
+        // Passing Data From VC to another using segue in code.
         
-        self.present(controller, animated: true, completion: nil)
+        self.performSegue(withIdentifier: "rollDice", sender: self)
     }
     
     
